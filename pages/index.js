@@ -171,7 +171,7 @@ export default function PersistentDrawerLeft() {
                     wrap="nowrap"
                   >
                     {index === 0 ? (
-                      <a href="mailto:serifcolakel0@gmail.com">
+                      <a href="mailto:serifcolakel0@gmail.com" rel="noreferrer">
                         <Button
                           variant="text"
                           color="default"
@@ -182,7 +182,7 @@ export default function PersistentDrawerLeft() {
                         </Button>
                       </a>
                     ) : "" || index === 1 ? (
-                      <a href="tel:05398568303">
+                      <a href="tel:05398568303" rel="noreferrer">
                         <Button
                           variant="text"
                           color="default"
@@ -195,6 +195,7 @@ export default function PersistentDrawerLeft() {
                     ) : "" || index === 2 ? (
                       <a
                         target="_blank"
+                        rel="noreferrer"
                         href="https://www.google.com.tr/maps/place/Esentepe,+13.+Sk.,+31040+Antakya%2FHatay/@36.2087181,36.1379893,17z/data=!3m1!4b1!4m5!3m4!1s0x1525c3acf7eab0dd:0x32df84b86c83ea0c!8m2!3d36.2087138!4d36.140178"
                       >
                         <Button
